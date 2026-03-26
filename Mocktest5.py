@@ -1,10 +1,11 @@
 #%% 
-# print('Hi')
+print('Hi')
+
 class Loan:
   def __init__(self, days_overdue, reserved=False):
     self.days_overdue = int(days_overdue)
     self.reserved = bool(reserved)
-        
+
 class MemberCard:
   def __init__(self, member_id):
     self.member_id = member_id
