@@ -27,7 +27,7 @@ class MemberCard:
     return self.balance
 
   def fine_for(self, loan):
-    return loan.days_overdue * 0.5
+    return loan.days_overdue * 0.50
 
   def pay_fine(self, loan):
     fine_amt = self.fine_for(loan)

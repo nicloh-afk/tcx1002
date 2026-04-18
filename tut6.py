@@ -159,3 +159,5 @@ Add a subclass EPayment. Each EPayment has a reference number and the payment am
 
 Allow partial payment and multiple payment. For example, given the total price of o1 is $2000, we can make two payments: '''
 
+print('hi')
+

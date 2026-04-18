@@ -39,8 +39,6 @@ ratings = [
   ("Book B", "NA"),
 ]
 
-
-
 def high_low_rating(records):
 
   def dropna(rating): # only expects boolean values

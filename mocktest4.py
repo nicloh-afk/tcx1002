@@ -11,7 +11,6 @@ Do NOT use loops.
 You may use filter() and reduce().
 '''
 
-
 votes = [
   ("KFC", 3),
   ("McDonalds", 5),

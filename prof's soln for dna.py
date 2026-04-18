@@ -12,4 +12,5 @@ def f(dna):  #'AAC' => ((A,2), (C, 1))
     return ((l, c+1),) + rest[1:]
   else:
     return ((dna[0], 1), ) + rest
-f('A')
+
+f('AAC')
