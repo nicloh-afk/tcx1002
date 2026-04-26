@@ -58,7 +58,7 @@ class FareCard:
     self.balance += amount
     return self.balance
   
-  def fare_for(self,trip):
+  def fare_for(trip):
     return trip.base_fare
   
   def tap_in(self,trip):
@@ -204,7 +204,6 @@ def max_depth(s):
       p_list = p_list[x:] # chop
     except:
       return -1
-
   return x
 
 # Do NOT modify the following testcase
@@ -238,3 +237,18 @@ def max_depth(s):
         return -1
     else:
         return max_depth
+
+# trying recursive
+def max_depth_rec(s):
+  s = ''.join(filter(lambda x:x in '()', s))
+  pass
+
+  
+''' 3 types of test case 
+- equal no of (), properly nested
+- equal no of (), but with ) ( pairs
+- not equal '''
+print(max_depth_rec("(())()")) # ==2
+# print(max_depth("()()")) # ==1
+# print(max_depth("())(")) # ==-1
+# print(max_depth("((a)")) # -1
